@@ -2,6 +2,8 @@
 
 This project uses FATFS with SPI to Read .BMP images from the SD Card and display them on the TFT LCD. This project uses TouchGFX, HAL and FreeRTOS.
 
+Note: The Sysem Clock must be set to 168MHz and should not be changed.
+
 Steps:
 1. Create a GUI Project with TouchGFX Designer and Setup your peripherals as follwos:
    1. Set SPI Speed to 2.624MBits/s (SPI1 in my case).
