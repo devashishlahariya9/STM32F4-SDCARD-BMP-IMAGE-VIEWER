@@ -14,6 +14,7 @@ Steps:
 3. Make the connections and you're ready to go.
 
 NOTE: The Project currently only supports 24bpp .BMP Images (240x320)
+
 NOTE: The Project does not support Screen Rotation, thus in order to display the Image (320x240) properly you must:
   1. Rotate Image Clockwise.
   2. Mirror The Image.
