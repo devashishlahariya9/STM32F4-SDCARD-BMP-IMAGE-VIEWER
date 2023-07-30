@@ -5,7 +5,7 @@ This project uses FATFS with SPI to Read .BMP images from the SD Card and displa
 Note: The Sysem Clock must be set to 168MHz and should not be changed.
 
 Steps:
-1. Create a GUI Project with TouchGFX Designer and Setup your peripherals as follwos:
+1. Create a GUI Project with TouchGFX Designer and Setup your peripherals as follws:
    1. Set SPI Speed to 2.624MBits/s (SPI1 in my case).
    2. Set GPIOB3 as SPI_CS.
    3. Enable FATFS (User Defined in my case)
@@ -19,3 +19,4 @@ NOTE: The Project does not support Screen Rotation, thus in order to display the
   1. Rotate Image Clockwise.
   2. Mirror The Image.
   3. Rotate Image 2 times clockwise.
+  4. Save, Copy and paste in your SD Card.
