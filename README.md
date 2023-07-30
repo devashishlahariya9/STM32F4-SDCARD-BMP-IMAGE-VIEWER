@@ -6,7 +6,7 @@ Note: The Sysem Clock must be set to 168MHz and should not be changed.
 
 Steps:
 1. Create a GUI Project with TouchGFX Designer and Setup your peripherals as follws:
-   1. Set SPI Speed to 2.624MBits/s (SPI1 in my case).
+   1. Set SPI Speed to 2.625MBits/s (SPI1 in my case).
    2. Set GPIOB3 as SPI_CS.
    3. Enable FATFS (User Defined in my case)
    4. Setup UART for Debugging (UART5 in my case).
