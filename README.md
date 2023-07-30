@@ -10,8 +10,10 @@ Steps:
    2. Set GPIOB3 as SPI_CS.
    3. Enable FATFS (User Defined in my case)
    4. Setup UART for Debugging (UART5 in my case).
-2. Generate the project and copt the files provided in your Folders.
-3. Make the connections and you're ready to go.
+2. Generate the project and copy the files provided in your Folders.
+3. Replace "Screen1View.cpp" with the one provided.
+4. Replace "user_diskio.c" with the one provided.
+5. Make the connections and you're ready to go.
 
 NOTE: The Project currently only supports 24bpp .BMP Images (240x320)
 
